@@ -1,0 +1,22 @@
+@blue_color: #21209c;
+@orange_color: #fdb827;
+@orange_color_cv: #f0a500;
+@black_color: #23120b;
+@white_color: #f1f1f1;
+@white_main_color: #fff;
+@black_main_color: #000;
+@black_border_accordion: #23120b;
+@gray_color: #c1c1c1;
+@color_error: rgb(246, 67, 67);
+
+.gradient(
+    @degree: 180deg,
+    @color1: @blue_color,
+    @color2: @orange_color,
+    @percent_end: 100%
+  ) {
+  background: linear-gradient(@degree, @color1 0%, @color2 @percent_end);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

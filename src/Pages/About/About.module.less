@@ -1,0 +1,59 @@
+@import url("../../less/define.less");
+
+.about {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 70px;
+  width: 100%;
+  justify-content: space-between;
+  div {
+    flex: 0 0 auto;
+  }
+  .accordions {
+    width: 55%;
+    p {
+      margin-top: 0;
+    }
+  }
+  .avatar {
+    width: 40%;
+    img {
+      width: 100%;
+    }
+  }
+  .cols {
+    display: flex;
+    justify-content: space-between;
+  }
+  .list-item {
+    li {
+      line-height: 25px;
+      * {
+        color: @black_main_color;
+      }
+
+      svg {
+        margin-right: 10px;
+      }
+    }
+    &:not(.type-icon) {
+      list-style: disc;
+      padding-left: 18px;
+      box-sizing: border-box;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .about {
+    margin-top: 50px;
+    > div {
+      flex: 0 0 auto;
+      margin: 0;
+      width: 100% !important;
+    }
+    .accordions {
+      order: 1;
+    }
+  }
+}

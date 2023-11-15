@@ -1,0 +1,52 @@
+@import url("../less/define.less");
+
+.timeline-box {
+  margin-bottom: 10px;
+  .title {
+    color: @blue_color;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px;
+  }
+  .container {
+    border-left: 3px solid @blue_color;
+    padding: 10px 0 10px 20px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    &::before,
+    &::after {
+      content: "";
+      display: inline-block;
+      background-color: @blue_color;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      position: absolute;
+      left: -6px;
+    }
+    &::before {
+      top: 0;
+    }
+    &::after {
+      bottom: 0;
+    }
+    * {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .timeline-box {
+    .container {
+      flex-flow: row wrap;
+      > div {
+        width: 100% !important;
+      }
+    }
+  }
+}

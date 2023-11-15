@@ -1,0 +1,67 @@
+@import url("../less/define.less");
+
+.card {
+  border-radius: 10px;
+  background: @white_main_color;
+  padding: 25px;
+  box-sizing: border-box;
+  max-width: 470px;
+  margin-right: 30px;
+  .image {
+    min-height: 195px;
+    img {
+      border-radius: 10px;
+      box-shadow: 3px 3px 7px 2px @gray_color;
+    }
+  }
+  .container {
+    * {
+      font-size: 14px;
+    }
+    h2 {
+      color: @black_color;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    .description {
+      margin: 10px 0;
+      line-height: 20px;
+      font-weight: 300;
+    }
+    .skills {
+      &:not(strong) {
+        font-weight: 300;
+      }
+    }
+  }
+  .view-link {
+    a {
+      border-radius: 10px;
+      display: inline-block;
+      background: @orange_color;
+      color: @black_main_color;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 20px;
+      padding: 8px 20px;
+      min-width: 100px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .card {
+    flex: 0 0 auto;
+    margin-right: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: initial;
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

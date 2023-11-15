@@ -1,0 +1,67 @@
+@import url("../less/define.less");
+
+.item {
+  border-radius: 20px;
+  border: 1px solid @black_border_accordion;
+  background: radial-gradient(
+      99.56% 48.5% at 98.5% 100%,
+      rgba(253, 184, 39, 0.2) 0%,
+      rgba(253, 184, 39, 0) 100%
+    ),
+    radial-gradient(
+      97.36% 47.43% at 2.57% 100%,
+      rgba(37, 36, 158, 0.2) 0%,
+      rgba(33, 32, 156, 0) 100%
+    ),
+    #fff;
+  margin-top: 20px;
+}
+.title {
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: @black_color;
+  cursor: pointer;
+  &::after {
+    // background-image: url("data:image/svg+xml,***<here place encoded svg>***");
+    // background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%20fill%3D%22none%22%3E%0A%3Cpath%20d%3D%22M13.0829%204.56374C12.4982%204.02917%2011.5487%204.02917%2010.964%204.56374L1.98322%2012.7747C1.39853%2013.3093%201.39853%2014.1774%201.98322%2014.712C2.5679%2015.2466%203.51743%2015.2466%204.10212%2014.712L12.0258%207.46752L19.9494%2014.7077C20.5341%2015.2423%2021.4836%2015.2423%2022.0683%2014.7077C22.653%2014.1732%2022.653%2013.305%2022.0683%2012.7704L13.0876%204.55946L13.0829%204.56374Z%22%20fill%3D%22%2323120B%22%2F%3E%0A%3C%2Fsvg%3E");
+    width: 24px;
+    height: 22px;
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in;
+  }
+  &.active::after {
+    transform: rotate(0);
+  }
+}
+.content {
+  box-sizing: border-box;
+  position: relative;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  color: @black_main_color;
+  &::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: calc(100% - 30px);
+    left: 15px;
+    top: 0;
+    height: 1px;
+    background: linear-gradient(90deg, #fdb827 0%, #21209c 124.92%);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .item {
+    margin-top: 15px;
+  }
+}

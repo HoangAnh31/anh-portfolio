@@ -1,0 +1,38 @@
+@import url("../../less/define.less");
+
+.experiences {
+  margin-top: 100px;
+  .img {
+    margin-right: 30px;
+  }
+  .content {
+    p {
+      margin: 0;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 25px;
+      box-sizing: border-box;
+      li {
+        line-height: 25px;
+      }
+      &.child {
+        list-style: decimal;
+      }
+    }
+    a {
+      color: @blue_color;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .experiences {
+    margin-top: 50px;
+    .img {
+      margin-right: 0;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+  }
+}
