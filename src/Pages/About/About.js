@@ -130,7 +130,7 @@ const About = () => {
               <ReadingBook></ReadingBook>Reading book
             </li>
             <li>
-              <Cooking></Cooking>Cooking with family
+              <Cooking></Cooking>Cooking
             </li>
           </motion.ul>
         </AccordionCard>
