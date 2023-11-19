@@ -1,28 +1,28 @@
 import TimelineBox from "../../UI/timelineBox";
 import classes from "./Experiences.module.less";
-import imgMom from "../../images/mom.png";
+// import imgMom from "../../images/mom.png";
 import imgPNJ from "../../images/pnj.png";
 import imgNguyenKim from "../../images/nguyenkim.png";
 import imgViettel from "../../images/viettel.png";
 import { motion } from "framer-motion";
 
 export const ARRAY_EXPERIENCES = [
-  {
-    title: "03/2023 - present - Mom stay at home",
-    content: (
-      <div>
-        <div className={classes.img}>
-          <img src={imgMom} alt="03/2023 - present - Mom stay at home"></img>
-        </div>
-        <div className={classes.content}>
-          <p>
-            I moved to Gold Coast for March 2023. I just stay at home and take
-            care my child.
-          </p>
-        </div>
-      </div>
-    ),
-  },
+  // {
+  //   title: "03/2023 - present - Mom stay at home",
+  //   content: (
+  //     <div>
+  //       <div className={classes.img}>
+  //         <img src={imgMom} alt="03/2023 - present - Mom stay at home"></img>
+  //       </div>
+  //       <div className={classes.content}>
+  //         <p>
+  //           I moved to Gold Coast for March 2023. I just stay at home and take
+  //           care my child.
+  //         </p>
+  //       </div>
+  //     </div>
+  //   ),
+  // },
   {
     title:
       "06/2017 - 02/2023 - Front End Developer, Phu Nhuan Jewelry Joint Stock Company - Ho Chi Minh City, Viet Nam",
