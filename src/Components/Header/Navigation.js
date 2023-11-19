@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import classes from "./Navigation.module.less";
 import { NavLink } from "react-router-dom";
-import { motion } from "framer-motion";
 
 const Navigation = (props) => {
   const [setClassNavigator, isSetClassNavigator] = useState(classes.nav);
@@ -21,7 +20,7 @@ const Navigation = (props) => {
       <ul className={classes.navigator}>
         <li>
           <NavLink
-            to="/"
+            to="."
             className={({ isActive }) => (isActive ? classes.active : "")}
             end
             onClick={hideMenuHandler}

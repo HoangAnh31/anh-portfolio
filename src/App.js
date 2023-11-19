@@ -9,7 +9,7 @@ import Contact from "./Pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/anh-portfolio",
     element: <Root></Root>,
     children: [
       {

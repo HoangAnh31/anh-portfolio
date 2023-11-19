@@ -7,7 +7,7 @@ const AccordionCard = (props) => {
 
   useEffect(() => {
     if (props.default === "1") setIsToggle(true);
-  }, []);
+  }, [props.default]);
 
   const toogleHandler = () => {
     setIsToggle((preState) => !preState);

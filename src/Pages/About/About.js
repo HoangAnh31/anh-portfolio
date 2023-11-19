@@ -9,7 +9,7 @@ import {
   iconCooking as Cooking,
 } from "../../UI/Icons";
 import classes from "./About.module.less";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 const controlContentAnimation = {
   hidden: { height: 0, opacity: 0 },

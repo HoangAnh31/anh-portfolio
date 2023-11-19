@@ -22,7 +22,7 @@ const Header = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
       >
-        <a href="/" title="Anh's Portfolio">
+        <a href="/anh-portfolio" title="Anh's Portfolio">
           <Logo></Logo>
           <h2>Anh's Portfolio</h2>
         </a>

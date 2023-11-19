@@ -1,7 +1,6 @@
 import ProjectCard from "../../UI/projectCard";
 import classes from "./Projects.module.less";
 import myPortfolio from "../../images/myportfolio.png";
-import imgProject1 from "../../images/demoProject.png";
 import { motion } from "framer-motion";
 
 const INITIAL_PROJECT = [
@@ -10,7 +9,7 @@ const INITIAL_PROJECT = [
     title: "My portfolio",
     description: `This is my first project while I'm studying a Reactjs course online. After I studied the basic part of Reactjs, I wanted to build a thing by myself, and this project came to me. I could build my own portfolio and practice what learned.`,
     skills: "HTML, Css, Reactjs, Framer Motion, Github",
-    link: "/",
+    link: "/anh-portfolio",
   },
 ];
 
