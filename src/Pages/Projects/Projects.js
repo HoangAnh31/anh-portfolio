@@ -12,15 +12,6 @@ const INITIAL_PROJECT = [
     skills: "HTML, Css, Reactjs, Framer Motion, Github",
     link: "/",
   },
-  // {
-  //   image: imgProject1,
-  //   title: "My portfolio",
-  //   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-  //   eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas
-  //   accumsan lacus vel facilisis volutpat est velit egestas.`,
-  //   skills: "HMTL, Css, Reactjs, Frm",
-  //   link: "",
-  // },
 ];
 
 const Projects = () => {
