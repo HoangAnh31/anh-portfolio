@@ -7,46 +7,46 @@ import imgViettel from "../../images/viettel.png";
 import { motion } from "framer-motion";
 
 export const ARRAY_EXPERIENCES = [
-  // {
-  //   title: "03/2023 - present - Mom stay at home",
-  //   content: (
-  //     <div>
-  //       <div className={classes.img}>
-  //         <img src={imgMom} alt="03/2023 - present - Mom stay at home"></img>
-  //       </div>
-  //       <div className={classes.content}>
-  //         <p>
-  //           I moved to Gold Coast for March 2023. I just stay at home and take
-  //           care my child.
-  //         </p>
-  //       </div>
-  //     </div>
-  //   ),
-  // },
   {
     title:
-      "06/2017 - 02/2023 - Front End Developer, Phu Nhuan Jewelry Joint Stock Company - Ho Chi Minh City, Viet Nam",
+      "06/2017 - 02/2023 - Frontend Developer, Phu Nhuan Jewelry Joint Stock Company - Ho Chi Minh City, VietNam",
     content: (
       <>
         <div className={classes.img}>
           <img
             src={imgPNJ}
-            alt="06/2017 - 02/2023 - Front End Developer, Phu Nhuan Jewelry Joint Stock
-        Company - Ho Chi Minh City, Viet Nam"
+            alt="06/2017 - 02/2023 - Frontend Developer, Phu Nhuan Jewelry Joint Stock
+        Company - Ho Chi Minh City, VietNam"
           ></img>
         </div>
         <div className={classes.content}>
           <ul>
             <li>
-              Project: Our team had built a new PNJ website from 2017 until now
-              using open source Cs-cart. My duty is building templates for
-              almost every page of the website such as homepage, detail product,
-              checkout, category, and some functions related to frontend…
-              Besides that, I build landing pages for promotion events. I
-              support another team with problems like orders, stores, etc…
-              Participation in building UI/UX for the website.
+              Upgraded all pages for the jewelry website such as the homepage,
+              products, categories, cart,... and responsive website.
             </li>
-            <li>Skill: HTML, Css(.less), Smarty PHP, Js</li>
+            <li>Maintained and updated some available functions and pages.</li>
+            <li>
+              Created new pages and functions by requirement department like
+              marketing, sales, operation,..
+            </li>
+            <li>
+              Created promotion pages for events or discount programs of the
+              company.
+            </li>
+            <li>
+              Participated in discussions with other teams for their
+              requirements of new pages or functions, evaluating and giving
+              feedback for a new function or about UI/UX
+            </li>
+            <li>
+              Worked with the design team and marketing for promotion pages
+            </li>
+            <li>
+              Ensured loading pages under 5s, using PageSpeed Insight to check
+              the time loading page.
+            </li>
+            <li>Skills: HTML, CSS(.less), Smarty PHP, Js</li>
             <li>
               Website:{" "}
               <a
@@ -64,19 +64,16 @@ export const ARRAY_EXPERIENCES = [
   },
   {
     title:
-      "02/2017 - 05/2015 - Frontend Developer, OneCorp - Ho Chi Minh City, Viet Nam",
+      "03/2017 - 05/2017 - Frontend Developer, OneCorp - Ho Chi Minh City, VietNam",
     content: (
       <>
         <div className={classes.content}>
           <ul>
             <li>
-              Project: Build a new version for E-commerce website based on file
-              design in accordance with user needs. This is online shopping
-              website with many variety products such as: fashion clothes,
-              footwear, stationery, functional foods,… Using Html, Css & Js to
-              build these page
+              Built all pages for e-commerce website like homepage, categories,
+              products, promotion pages,..
             </li>
-            <li>This company has gone bankrupt.</li>
+            <li>Skills: HTML, CSS, Javascript, Jquery, Navicat,..</li>
           </ul>
         </div>
       </>
@@ -84,25 +81,24 @@ export const ARRAY_EXPERIENCES = [
   },
   {
     title:
-      "09/2015 - 02/2017 -  Developer, Nguyen Kim Company - Ho Chi Minh City, Viet Nam",
+      "09/2015 - 02/2017 -  Developer, Nguyen Kim Company - Ho Chi Minh City, VietNam",
     content: (
       <>
         <div className={classes.img}>
           <img
             src={imgNguyenKim}
-            alt="09/2015 - 02/2017 -  Developer, Nguyen Kim Company - Ho Chi Minh City, Viet Nam"
+            alt="09/2015 - 02/2017 -  Developer, Nguyen Kim Company - Ho Chi Minh City, VietNam"
           ></img>
         </div>
         <div className={classes.content}>
-          <p>
-            <strong>Form 9/2015 to 12/2015</strong>
-          </p>
           <ul>
             <li>Position: PHP Developer</li>
-            <li>
-              Make to upgrade for available function for Nguyen Kim website.
-              This website of E-commerce use Cs-cart open source.
-            </li>
+            <li>Maintained and fixed bugs in the available functions.</li>
+            <li>Upgraded the available functions.</li>
+            <li>Created and upgraded new pages for Nguyen Kim's website.</li>
+            <li>Made promotion pages for events or discount programs</li>
+            <li>Built other websites for partners.</li>
+            <li>Skills: PHP, Smarty, HTML, CSS, Javascript, Jquery,..</li>
             <li>
               Website:{" "}
               <a
@@ -119,93 +115,25 @@ export const ARRAY_EXPERIENCES = [
     ),
   },
   {
-    title: "",
-    content: (
-      <>
-        <div className={classes.content}>
-          <p>
-            <strong>From 01/2016 to 02/2017</strong>
-          </p>
-          <ul>
-            <li>Position: HTML Developer</li>
-            <li>
-              Project:
-              <ul className={classes.child}>
-                <li>
-                  {" "}
-                  Super Sports Website: The website introduces a sport shop with
-                  its products and supports online order. Built layouts
-                  according to customer parameters using HTML, CSS3 and Js.{" "}
-                  <br></br>Website:{" "}
-                  <a
-                    href="http://supersportsvietnam.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    http://supersportsvietnam.com/
-                  </a>
-                </li>
-                <li>
-                  Ecommerce B2S Website: This is an e-commerce website with full
-                  features to best serve the online shopping needs of customers:
-                  ordering, show products, carts, ... Built layouts according to
-                  customer parameters using HTML, CSS3 and Js.
-                  <br></br>Website:{" "}
-                  <a
-                    href="http://b2s.com.vn/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    http://b2s.com.vn/
-                  </a>
-                </li>
-                <li>
-                  Upgrade New Layout Website Nguyen Kim: Implement as HTML, Css
-                  & JS according to available designs, cut shapes as well as
-                  extract color in accordance with design, make conversion, edit
-                  pages for new design such as product catalog, banner,
-                  Products, popup, services of Nguyen Kim, responsive mobile.
-                  Besides, during time work at Nguyen Kim, I create a lot of
-                  promotion pages follow Marketing design and plan.
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </>
-    ),
-  },
-  {
     title:
-      "10/2014 - 07/2015 - Web Developer .NET, Viettel Group - Ho Chi Minh City, Viet Nam",
+      "10/2014 - 07/2015 - Web Developer .NET, Viettel Group - Ho Chi Minh City, VietNam",
     content: (
       <>
         <div className={classes.img}>
           <img
             src={imgViettel}
-            alt="10/2014 - 07/2015 - Web Developer .NET, Viettel Group - Ho Chi Minh City, Viet Nam"
+            alt="10/2014 - 07/2015 - Web Developer .NET, Viettel Group - Ho Chi Minh City, VietNam"
           ></img>
         </div>
         <div className={classes.content}>
           <ul>
+            <li>Maintained and fixed bugs in the available functions.</li>
             <li>
-              This website allows school to management students, teachers and
-              communicate with parents of student. Demonstrating the interaction
-              between the school with teachers, teachers with students, the
-              school + teachers width parents. My work made translate website
-              and then made to build for new function or upgrade for available
-              function.
+              Built new functions like student management, and management of
+              school schedules,...
             </li>
-            <li>
-              Website:{" "}
-              <a
-                href="http://smas.edu.vn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                http://smas.edu.vn
-              </a>
-            </li>
+            <li>Upgraded the available functions</li>
+            <li>Skills: SQL, .NET, HTML, CSS, Javascript, Jquery,..</li>
           </ul>
         </div>
       </>

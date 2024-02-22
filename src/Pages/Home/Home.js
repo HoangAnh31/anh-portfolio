@@ -60,7 +60,7 @@ const Home = () => {
           <LinkedinIcon></LinkedinIcon>
         </motion.a>
         <motion.a
-          href="https://github.com/HoangAnh31?tab=repositories"
+          href="https://github.com/HoangAnh31"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.08 }}
@@ -73,7 +73,7 @@ const Home = () => {
       </motion.div>
       <div className={classes["download-cv"]}>
         <motion.a
-          href="https://github.com/HoangAnh31/my-resume/blob/main/PhamHoangAnhNguyen_Frontend.pdf"
+          href="https://drive.google.com/file/d/1EWd3EFPh4HHVGAvC2Sx2el9wOsGaZb3m/view?usp=sharing"
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         >

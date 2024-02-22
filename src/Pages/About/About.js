@@ -30,17 +30,10 @@ const About = () => {
             transition="transition"
           >
             <p>
-              I have had over 9 years to work with differences roles in Viet
-              Nam. I just moved to Australia without no experiences working
-              here. Therefore, I am looking for a entry level position. I have
-              not had the opportunity to interact with the environment as well
-              as work experience in Australia. So for what I did before, it was
-              difficult for the company to judge my ability. I know I need to
-              learn and improve more because my knowledge and ability may not be
-              enough for the company. I hope that if I join the company as an
-              entry level role, I can work in an Australian environment, learn
-              from my colleagues' experiences and broaden my communication and
-              culture in Australia.
+              A Frontend developer with over 5 years in e-commerce website,
+              built landing pages and promotion pages, can work with designers
+              team, proficient in HTML, CSS, Javascript, and basic ReactJS. Good
+              teamwork and sociable.
             </p>
             <ul className={`${classes["list-item"]} ${classes["type-icon"]}`}>
               <li>
@@ -95,7 +88,7 @@ const About = () => {
             </li>
             <li>Ability to use JQuery, Javascript</li>
             <li>Navicat tool (database management & design)</li>
-            <li>Basic ReactJS, Bootstrap Framework</li>
+            <li>Basic ReactJS, Tailwindcss, Typescript</li>
             <li>GIT</li>
             <li>Agile environment</li>
             <li>Jira</li>
@@ -110,7 +103,7 @@ const About = () => {
             exit="hidden"
             transition="transition"
           >
-            <p>English - Limited</p>
+            <p>English</p>
             <p>Vietnamese - Native</p>
           </motion.div>
         </AccordionCard>
