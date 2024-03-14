@@ -73,7 +73,7 @@ const Home = () => {
       </motion.div>
       <div className={classes["download-cv"]}>
         <motion.a
-          href="https://drive.google.com/file/d/1EWd3EFPh4HHVGAvC2Sx2el9wOsGaZb3m/view?usp=sharing"
+          href="https://drive.google.com/file/d/1rDNTakwCd5MaWoyhyFlBoHYU24FG4UPu/view?usp=sharing"
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         >

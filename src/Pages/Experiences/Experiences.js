@@ -64,24 +64,7 @@ export const ARRAY_EXPERIENCES = [
   },
   {
     title:
-      "03/2017 - 05/2017 - Frontend Developer, OneCorp - Ho Chi Minh City, VietNam",
-    content: (
-      <>
-        <div className={classes.content}>
-          <ul>
-            <li>
-              Built all pages for e-commerce website like homepage, categories,
-              products, promotion pages,..
-            </li>
-            <li>Skills: HTML, CSS, Javascript, Jquery, Navicat,..</li>
-          </ul>
-        </div>
-      </>
-    ),
-  },
-  {
-    title:
-      "09/2015 - 02/2017 -  Developer, Nguyen Kim Company - Ho Chi Minh City, VietNam",
+      "09/2015 - 02/2017 - Web Developer, Nguyen Kim Company - Ho Chi Minh City, VietNam",
     content: (
       <>
         <div className={classes.img}>

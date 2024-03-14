@@ -31,9 +31,9 @@ const About = () => {
           >
             <p>
               A Frontend developer with over 5 years in e-commerce website,
-              built landing pages and promotion pages, can work with designers
-              team, proficient in HTML, CSS, Javascript, and basic ReactJS. Good
-              teamwork and sociable.
+              build landing pages and responsive pages, proficient in
+              Javascript, HTML5, CSS3, and ReactJS. Good teamwork with
+              stakeholders, sociable and problem-solving skill.
             </p>
             <ul className={`${classes["list-item"]} ${classes["type-icon"]}`}>
               <li>
@@ -83,15 +83,15 @@ const About = () => {
             exit="hidden"
             transition="transition"
           >
+            <li>Languages: HTML5, CSS3, Javascript</li>
+            <li>Frameworks: NodeJS, ReactJS, TailwindCss, ExpressJS</li>
+            <li>Database: MySQL</li>
+            <li>Agile</li>
+            <li>Tools: GitHub, Jira, Bitbucket, Figma, Navicat</li>
             <li>
-              Highly proficient creating HTML5 and CSS3, Responsive Web Designs
+              Soft Skills: problem-solving, teamwork with stakeholders, passion
+              for learning and working, willing to learn new technical{" "}
             </li>
-            <li>Ability to use JQuery, Javascript</li>
-            <li>Navicat tool (database management & design)</li>
-            <li>Basic ReactJS, Tailwindcss, Typescript</li>
-            <li>GIT</li>
-            <li>Agile environment</li>
-            <li>Jira</li>
           </motion.ul>
         </AccordionCard>
         <AccordionCard title="Languages">
@@ -104,7 +104,7 @@ const About = () => {
             transition="transition"
           >
             <p>English</p>
-            <p>Vietnamese - Native</p>
+            <p>Vietnamese</p>
           </motion.div>
         </AccordionCard>
         <AccordionCard title="Hobbies">
